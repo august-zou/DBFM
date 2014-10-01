@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  DBMF
-//
-//  Created by august-mba on 14-9-30.
-//  Copyright (c) 2014年 heletech. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {

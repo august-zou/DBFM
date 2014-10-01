@@ -13,6 +13,11 @@
 		97C352E519DA8E4D00615DA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C352E419DA8E4D00615DA5 /* Images.xcassets */; };
 		97C352E819DA8E4D00615DA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97C352E619DA8E4D00615DA5 /* LaunchScreen.xib */; };
 		97C352F419DA8E4D00615DA5 /* DBMFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C352F319DA8E4D00615DA5 /* DBMFTests.swift */; };
+		97C3530419DA9F6A00615DA5 /* btnChannel.png in Resources */ = {isa = PBXBuildFile; fileRef = 97C3530019DA9F6A00615DA5 /* btnChannel.png */; };
+		97C3530519DA9F6A00615DA5 /* btnPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 97C3530119DA9F6A00615DA5 /* btnPlay.png */; };
+		97C3530619DA9F6A00615DA5 /* detail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97C3530219DA9F6A00615DA5 /* detail.jpg */; };
+		97C3530719DA9F6A00615DA5 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97C3530319DA9F6A00615DA5 /* logo.jpg */; };
+		97C3530919DA9FF500615DA5 /* ChannelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C3530819DA9FF500615DA5 /* ChannelController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		97C352ED19DA8E4D00615DA5 /* DBMFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBMFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C352F219DA8E4D00615DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97C352F319DA8E4D00615DA5 /* DBMFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBMFTests.swift; sourceTree = "<group>"; };
+		97C3530019DA9F6A00615DA5 /* btnChannel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnChannel.png; sourceTree = "<group>"; };
+		97C3530119DA9F6A00615DA5 /* btnPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnPlay.png; sourceTree = "<group>"; };
+		97C3530219DA9F6A00615DA5 /* detail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = detail.jpg; sourceTree = "<group>"; };
+		97C3530319DA9F6A00615DA5 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		97C3530819DA9FF500615DA5 /* ChannelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +87,10 @@
 		97C352DA19DA8E4D00615DA5 /* DBMF */ = {
 			isa = PBXGroup;
 			children = (
+				97C352FF19DA9F6A00615DA5 /* images */,
 				97C352DD19DA8E4D00615DA5 /* AppDelegate.swift */,
 				97C352DF19DA8E4D00615DA5 /* ViewController.swift */,
+				97C3530819DA9FF500615DA5 /* ChannelController.swift */,
 				97C352E119DA8E4D00615DA5 /* Main.storyboard */,
 				97C352E419DA8E4D00615DA5 /* Images.xcassets */,
 				97C352E619DA8E4D00615DA5 /* LaunchScreen.xib */,
@@ -111,6 +123,17 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		97C352FF19DA9F6A00615DA5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				97C3530019DA9F6A00615DA5 /* btnChannel.png */,
+				97C3530119DA9F6A00615DA5 /* btnPlay.png */,
+				97C3530219DA9F6A00615DA5 /* detail.jpg */,
+				97C3530319DA9F6A00615DA5 /* logo.jpg */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -193,7 +216,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				97C352E319DA8E4D00615DA5 /* Main.storyboard in Resources */,
+				97C3530519DA9F6A00615DA5 /* btnPlay.png in Resources */,
 				97C352E819DA8E4D00615DA5 /* LaunchScreen.xib in Resources */,
+				97C3530419DA9F6A00615DA5 /* btnChannel.png in Resources */,
+				97C3530719DA9F6A00615DA5 /* logo.jpg in Resources */,
+				97C3530619DA9F6A00615DA5 /* detail.jpg in Resources */,
 				97C352E519DA8E4D00615DA5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +241,7 @@
 			files = (
 				97C352E019DA8E4D00615DA5 /* ViewController.swift in Sources */,
 				97C352DE19DA8E4D00615DA5 /* AppDelegate.swift in Sources */,
+				97C3530919DA9FF500615DA5 /* ChannelController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +433,7 @@
 				97C352F919DA8E4D00615DA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97C352FA19DA8E4D00615DA5 /* Build configuration list for PBXNativeTarget "DBMFTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +442,7 @@
 				97C352FC19DA8E4D00615DA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
